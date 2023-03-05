@@ -1,0 +1,69 @@
+
+------------   NAME AND CONTACT  ------------  
+Tamás Imets
+https://imetstamas.com/contact/
+tamas.imets@minyma-tech.com
+
+
+
+------------   EXPERIENCE AND PROJECTS   ------------  
+I acquired most of my knowledge and skills outside of institutional education, which is probably due 
+to my curious nature. I started working in the field of artificial intelligence and autonomous flying 
+robots at the age of 16 and have been actively developing my ideas ever since.
+
+- Brainwave-controlled wheelchair robot and videogame (1st prize at the 25th Youth Scientific and Innovational Contest)
+- Intelligent human and face recognizing autonomous drones that can find injured people autonomously in rural areas. 
+(Award winning project in Taiwan)
+- Hand gesture-based home automation and smart home systems (SciChallange Winner - Vienna)
+- Brain activity-controlled obstacle avoiding drones.
+- Created a backtest environment in Python (using Pandas, NumPy and Plotly) with an interactive dashboard that 
+allows to test and analyze algorithmic trading strategies with multiple instruments.
+
+
+
+------------   WORK EXPREINCE AND FREELANCER PROJECTS   ------------  
+My work experience comes from freelancer projects which I did mostly for Hungarian
+and American clients. Most of these projects are related to embedded systems
+programming and computer vision.
+In 2021 I started a tech company and grew our team's size to 26 at one point. 
+Right now we are focusing on Quino (quino.ai) with a smaller team.
+
+- Netlfife Robotics - 2021 - Machine Learning Engineer
+- Minyma Technologies - 2021-2023 - Co-founder, CEO, Quantitative Modeling, Product Development, and Leader of The Team
+
+
+
+------------   SKILLS   ------------  
+Programming - Python, C++, C, C#, Java, SQL, Arduino
+Software and Libraries - Pandas, NumPy, SciPy, SciKit-Learn, TensorFlow, Keras, Git, Backtrader, Plotly
+Technical - Data cleaning, Statistical data analysis, Machine learning, Data Visualization
+
+
+
+------------   EDUCATION   ------------  
+HIGH SCHOOL OF ARTS “NAGY ISTVÁN”
+ARCHITECTURE - 2014-2016
+
+“MÁRTON ÁRON” HIGH SCHOOL
+MATHEMATICS AND INFORMATICS - 2016-2018
+
+BUDAPEST UNIVERSITY OF ECOOMICS AND TECHNOLOGY (BME)
+COMPUTER ENGINEERING BSC – 2018 - 2022
+
+
+
+------------   AWARDS AND ACHIEVEMENTS   ------------  
+25th Youth Scientific and Innovational Contest (1st prize, Hungary) – 2016
+TEDx Speaker (Romania) – 2016
+XXII. OTTDK (1st prize drone development, Hungary) – 2017
+Brussels Regional Expo (drone demonstration, Belgium) – 2017
+Taiwan International Science Fair (4th award, Taiwan) – 2018 
+“Szeklers on Earth” Data Visualization Contest (Best looking visualization) – 2018
+BME Artificial Intelligence Competition (3rd prize, Hungary) – 2019 
+Three Times “Young Talents Scholarship” Winner (Hungary)
+
+
+
+
+------------   LANGUAGES    ------------  
+English, Hungarian, Romanian, German 
