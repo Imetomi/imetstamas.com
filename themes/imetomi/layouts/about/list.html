@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+{{ with .Params.image }}
+    {{ $imageResource := ($.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+    {{ if not $imageResource }}
+        <div class="about-pic-container"></div>
+    {{ else }}
+        {{ $resized := $imageResource.Resize "800x" }}
+        <div class="about-pic-container" style='background-image: url("{{ $resized.RelPermalink }}")'></div>
+    {{ end}}
+{{ end }}
+<div class="about-info-container">
+    <div class="about-info">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

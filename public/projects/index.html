@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    
+        <title>Writings – Tamás Imets</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/img/site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<div class="flex-column-container">
+<header>
+    <nav>
+        <ul class='semibold'>
+            <div class="nav-left">
+                <li class='current-nav'><a href="/">Tamás Imets</a></li>
+            </div>
+            <div class="nav-right">
+                
+                <li><a href="/about">About</a></li>
+                
+                
+                <li class='current-nav'><a href="/writings">Writings</a></li>
+                
+                
+                <li><a href="/contact">Contact</a></li>
+                
+            </div>
+        </ul>
+        <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+</header>
+<div class="content">
+
+<div class="writings-container">
+    
+</div>
+
+</div>
+<footer>
+    <div class="footer-container">
+        <ul class='footer-category footer-category--sitemap'>
+            <li class="footer-item footer-item-title">
+                imetomi.com
+            </li>
+            <li class="footer-item">
+                <a href="/about">About</a>
+            </li>
+            <li class="footer-item">
+                <a href="/writings">Writings</a>
+            </li>
+            <li class="footer-item">
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+        <ul class='footer-category footer-category--socials'>
+            <li class="footer-item footer-item-title">
+                Socials
+            </li>
+            <li class="footer-item">
+                <a href="https://github.com/imetomi">Github</a>
+            </li>
+        </ul>
+        <ul class='footer-category footer-category--siteby'>
+            <li class="footer-item footer-item-title">
+                Site by <a href="https://zoltan.digital">zoltan.digital</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</div>
+<!-- Legnagyobb erősségemnek a szociális és kognitív képességeim egyensúlyát tartom. Ennek köszönhetően könnyedén, közérthetően át tudom adni a szakmai gondolatokat, akár laikusoknak is.  -->
+<script>
+    var toggle = document.getElementsByClassName("hamburger")[0];
+    var menu = document.getElementsByClassName("nav-right")[0];
+    toggle.addEventListener("click", function () {
+        menu.classList.toggle("shown");
+        toggle.classList.toggle("is-active");
+    }, false);
+</script>

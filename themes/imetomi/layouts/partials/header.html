@@ -1,0 +1,33 @@
+<div class="flex-column-container">
+<header>
+    <nav>
+        <ul class='semibold'>
+            <div class="nav-left">
+                <li class='current-nav'><a href="/">{{ .Site.Title }}</a></li>
+            </div>
+            <div class="nav-right">
+                {{ if eq .Page.Title "About" }}
+                <li class='current-nav'><a href="/about">About</a></li>
+                {{ else }}
+                <li><a href="/about">About</a></li>
+                {{ end }}
+                {{ if eq .Page.Title "Writings" }}
+                <li class='current-nav'><a href="/writings">Writings</a></li>
+                {{ else }}
+                <li><a href="/writings">Writings</a></li>
+                {{ end }}
+                {{ if eq .Page.Title "Contact"}}
+                <li class='current-nav'><a href="/contact">Contact</a></li>
+                {{ else}}
+                <li><a href="/contact">Contact</a></li>
+                {{ end }}
+            </div>
+        </ul>
+        <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+</header>
+<div class="content">

@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="writings-container">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}">
+        {{ with .Params.thumbnail }}
+            {{ $imageResource := ($.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+            {{ if not $imageResource }}
+                <div class="project">
+            {{ else }}
+                {{ $resized := $imageResource.Resize "800x" }}
+                {{ $resized = $resized.Filter (images.GaussianBlur 5) (images.Brightness -6) }}
+                <article class='project' style='background-image: url("{{ $resized.RelPermalink }}")'>
+            {{ end}}
+        {{ end }}
+                <div class="project-text">
+                    <p class="project-date">
+                        {{ .Date.Format "Monday, Jan 2, 2006" }}
+                    </p>
+                    <h1 class="project-title">
+                        {{ .Title }}
+                    </h1>
+                    <p class="project-description">
+                        {{ .Params.shortDescription }}
+                    </p>
+                </div>
+            </article>
+        </a>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

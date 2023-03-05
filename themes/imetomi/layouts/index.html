@@ -1,0 +1,67 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+{{ range first 1 (where .Site.RegularPages "Section" "writings") }}
+    <a href="{{ .RelPermalink }}">
+        {{ with .Params.thumbnail }}
+            {{ $imageResource := ($.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+            {{ if not $imageResource }}
+                <div class="project">
+            {{ else }}
+                {{ $resized := $imageResource.Resize "800x" }}
+                {{ $resized = $resized.Filter (images.GaussianBlur 5) (images.Brightness -6) }}
+                <article class='project' style='background-image: url("{{ $resized.RelPermalink }}")'>
+            {{ end}}
+        {{ end }}
+            <div class="project-text">
+                <p class="project-date">
+                    {{ .Date.Format "Jan 2, 2006" }}
+                </p>
+                <h1 class="project-title">
+                    {{ .Title }}
+                </h1>
+                <p class="project-description">
+                    {{ .Params.shortDescription }}
+                </p>
+            </div>
+        </article>
+    </a>
+{{ end }}
+<div class="intro-container">
+    <p class="intro-text">
+        {{ .Params.intro }}
+    </p>
+</div>
+<div class="project-updates-container">
+    <h1 class="project-updates-title">Project Updates</h1>
+    <div class="project-updates-updates">
+        {{ range first 6 (where .Site.RegularPages "Section" "updates") }}
+            {{ $project := string .Params.project }}
+            {{ with .Site.GetPage $project }}
+            <a href="{{ .RelPermalink }}">
+            {{ end }}
+                <article class='project-update'>
+                    <div class="project-update-text">
+                        <p class="project-update-date">
+                            {{ .Date.Format "Jan 2, 2006" }}
+                        </p>
+                        <h1 class="project-update-title">
+                            {{ .Title }} -
+                            {{ with .Site.GetPage $project }}
+                                {{ .Title }}
+                            {{ end }}
+                        </h1>
+                        <p class="project-update-description">
+                            {{ .Params.shortDescription }}
+                        </p>
+                        <p class="project-update-goto">
+                            See the project ->
+                        </p>
+                    </div>
+                </article>
+            </a>
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

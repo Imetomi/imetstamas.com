@@ -1,0 +1,19 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+  default: now
+- type: textarea
+  name: shortDescription
+  label: shortDescription
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 250
+  label: thumbnail

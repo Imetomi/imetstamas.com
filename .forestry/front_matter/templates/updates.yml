@@ -1,0 +1,28 @@
+---
+label: Updates
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+  default: now
+- name: project
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: writings
+      file: 
+      path: 
+  label: Project
+- name: shortDescription
+  type: text
+  config:
+    required: false
+  label: short description
