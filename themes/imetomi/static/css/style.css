@@ -1383,13 +1383,12 @@ nav {
   flex: 1 1 0%; }
 
 .intro-container {
-  background-color: rgba(93, 85, 250, 0.1);
   padding: 32px;
   border-radius: 8px; }
 
 .intro-text {
   font-size: 18px;
-  color: #5D55FA;
+  color: #3B3B3B;
   line-height: 1.5; }
 
 .writings-container {
@@ -1526,7 +1525,7 @@ nav {
   letter-spacing: -0.01em; }
 
 .project-article .content a {
-  color: #5D55FA; }
+  color: #3B3B3B; }
 
 .project-article .content a:hover {
   text-decoration: underline; }
@@ -1588,7 +1587,6 @@ nav {
 .about-info {
   width: 100%;
   padding: 32px;
-  border: 1px solid #CFCFCF;
   border-radius: 8px; }
   .about-info p {
     line-height: 1.5;
@@ -1598,18 +1596,18 @@ nav {
   .about-info p:last-of-type {
     margin-bottom: 0; }
   .about-info a {
-    color: #5D55FA; }
+    color: #adadad; }
   .about-info a:hover {
     text-decoration: underline; }
 
 .contact-text-container {
-  background-color: rgba(93, 85, 250, 0.1);
+  background-color: rgba(93, 93, 93, 0.1);
   padding: 32px;
   border-radius: 8px;
   margin-bottom: 20px; }
   .contact-text-container p {
     line-height: 1.5;
-    color: #5D55FA;
+    color: #3B3B3B;
     font-size: 18px; }
 
 .contact-form-container form {
@@ -1652,7 +1650,7 @@ nav {
   .contact-form-container form button {
     padding: 12px 16px;
     width: 160px;
-    background-color: #5C51E0;
+    background-color: #3B3B3B;
     color: #fff;
     font-family: "Inter", sans-serif;
     border-radius: 4px;
