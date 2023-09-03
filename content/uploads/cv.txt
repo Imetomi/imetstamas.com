@@ -2,8 +2,7 @@
 ------------   NAME AND CONTACT  ------------  
 Tamás Imets
 https://imetstamas.com/contact/
-tamas.imets@minyma-tech.com
-
+imetstamas@gmail.com
 
 
 ------------   EXPERIENCE AND PROJECTS   ------------  
@@ -18,26 +17,38 @@ robots at the age of 16 and have been actively developing my ideas ever since.
 - Brain activity-controlled obstacle avoiding drones.
 - Created a backtest environment in Python (using Pandas, NumPy and Plotly) with an interactive dashboard that 
 allows to test and analyze algorithmic trading strategies with multiple instruments.
+- Created a learning assist tool in 12th grade high school to help me with my studies, wasn't that good at that
+time but it became the origin story of Quino (our edtech AI startup)
+- Founded Minyma Technologies at the age of 22 with my friends
+- Founded Quino at the age of 24 with the same team (raised a pre-seed round of >800k as a B2C edtech company in the CEE)
 
 
 
-------------   WORK EXPREINCE AND FREELANCER PROJECTS   ------------  
-My work experience comes from freelancer projects which I did mostly for Hungarian
+------------   WORK EXPERIENCE AND FREELANCER PROJECTS   ------------  
+My earlier work experience comes from freelancer projects which I did mostly for Hungarian
 and American clients. Most of these projects are related to embedded systems
 programming and computer vision.
 In 2021 I started a tech company and grew our team's size to 26 at one point. 
-Right now we are focusing on Quino (quino.ai) with a smaller team.
+Right now I have two companies, Quino and Minyma Technologies. First one being a startup we focus a lot
+on product development. The second one is our software service company where we solve deep tech related problems for our clients.
 
 - Netlfife Robotics - 2021 - Machine Learning Engineer
-- Minyma Technologies - 2021-2023 - Co-founder, CEO, Quantitative Modeling, Product Development, and Leader of The Team
+- Minyma Technologies - 2021-Ongoing - Co-founder, CEO, Quantitative Modeling, Product Development, and Leader of The Team, Sales
+- Quino - 2023-Ongoing - Co-founder, CEO, Product Owner, Team Lead
 
 
 
 ------------   SKILLS   ------------  
 Programming - Python, C++, C, C#, Java, SQL, Arduino
 Software and Libraries - Pandas, NumPy, SciPy, SciKit-Learn, TensorFlow, Keras, Git, Backtrader, Plotly
-Technical - Data cleaning, Statistical data analysis, Machine learning, Data Visualization
+Technical - Data cleaning, Statistical data analysis, Machine learning, Data Visualization, AI Model Creation
+Soft Skills - More that 2 years of experience as a team lead, managing finances, HR and overall operations 
 
+
+------------   WHAT DO I LIKE TO DO THE MOST?   ------------  
+To be honest the best part of my work is probably early prototyping where you can explore a problem in really 
+creative ways. This is the most joyful part of my work, combining design, computer science, and a motivated team 
+to tackle these challenges.  
 
 
 ------------   EDUCATION   ------------  
@@ -66,4 +77,4 @@ Three Times “Young Talents Scholarship” Winner (Hungary)
 
 
 ------------   LANGUAGES    ------------  
-English, Hungarian, Romanian, German 
+English, Hungarian, Romanian, German, Korean (only reading & writing), Very-very little Chinese
