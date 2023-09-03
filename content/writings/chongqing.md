@@ -1,7 +1,7 @@
 ---
 title: "The Beauty of Dystopian Aesthetic"
 date: 2023-09-03T08:00:00Z
-thumbnail: "/uploads/plane.jpg"
+thumbnail: "/uploads/chongqing.jpg"
 draft: true
 shortDescription: "Extremely tall, dense buildings, neon lights, crowded streets, humid weather and an old lady preparing spicy noodles at the corner. An essay about my short aesthetic adventure in Chongqing, China."
 
