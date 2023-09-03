@@ -1527,6 +1527,13 @@ nav {
 .project-article .content a {
   color: #adadad; }
 
+.project-article .content img {
+  height: 520px;
+  border-radius: 8px;
+  object-fit: cover; 
+  margin-top: 10px;
+  margin-bottom: 10px; }  
+
 .project-article .content a:hover {
   text-decoration: underline; }
 
@@ -1738,7 +1745,7 @@ nav {
     max-width: none;
     width: 100%; }
   .project-article .project-image {
-    border-radius: 0;
+    border-radius: 8px;
     height: 400px; }
   .project-article .title-container, .project-article .content {
     padding: 0 16px; }
