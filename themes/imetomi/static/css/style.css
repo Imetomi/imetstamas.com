@@ -1568,6 +1568,7 @@ nav {
 
 .about-pic-container {
   height: 520px;
+  background-position: right;
   border-radius: 8px;
   margin-bottom: 20px;
   background-size: cover;
@@ -1716,6 +1717,7 @@ nav {
     bottom: 32px;
     margin-top: 32px; }
   .about-pic-container {
+    background-position: right;
     height: 400px;
     margin-bottom: 0; }
   .about-info {
