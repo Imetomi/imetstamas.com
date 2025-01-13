@@ -33,16 +33,16 @@ Right now I have two companies, Quino and Minyma Technologies. First one being a
 on product development. The second one is our software service company where we solve deep tech related problems for our clients.
 
 - Netlfife Robotics - 2021 - Machine Learning Engineer
-- Minyma Technologies - 2021-Ongoing - Co-founder, CEO, Quantitative Modeling, Product Development, and Leader of The Team, Sales
-- Quino - 2023-Ongoing - Co-founder, CEO, Product Owner, Team Lead
+- Minyma Technologies - 2021-2023 - Co-founder, CEO, Quantitative Modeling, Product Development, and Leader of The Team, Sales
+- Quino - 2023-Ongoing - Co-founder, CEO, Product Owner, Team Lead (raised a pre-seed round of $840k)
 
 
 
 ------------   SKILLS   ------------  
 Programming - Python, C++, C, C#, Java, SQL, Arduino
-Software and Libraries - Pandas, NumPy, SciPy, SciKit-Learn, TensorFlow, Keras, Git, Backtrader, Plotly
+Software and Libraries - Pandas, NumPy, SciPy, SciKit-Learn, TensorFlow, Keras, Git, Backtrader, Plotly, SQLAlchemy, Flask, FastAPI
 Technical - Data cleaning, Statistical data analysis, Machine learning, Data Visualization, AI Model Creation
-Soft Skills - More that 2 years of experience as a team lead, managing finances, HR and overall operations 
+Soft Skills - More that 4 years of experience as a team lead, managing finances, HR and overall operations 
 
 
 ------------   WHAT DO I LIKE TO DO THE MOST?   ------------  
