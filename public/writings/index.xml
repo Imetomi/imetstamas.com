@@ -2,9 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writings on Tamás Imets</title>
-    <link>http://example.org/writings/</link>
+    <link>http://localhost:1313/writings/</link>
     <description>Recent content in Writings on Tamás Imets</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/writings/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/writings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memories of Green</title>
+      <link>http://localhost:1313/writings/chongqing/</link>
+      <pubDate>Wed, 11 Jun 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writings/chongqing/</guid>
+      <description>&lt;p&gt;Extremely tall, dense buildings, colorful light shows on hundred meter tall buildings, crowded streets, humid weather, the sound of loud Chinese advertisements, an old lady preparing spicy noodles at the corner, and the smell of Sichuan chili. Walking on the streets of Chongqing is an experience like no other for someone who grew up in a small European town. In this short writing I will try to explain why this city attracted me, and most importantly I will try to describe my journey of exploring this other-worldly aesthetic environment. This whole city for me felt like &lt;a href=&#34;https://youtu.be/DybCZvW1mBo?si=mt5AYBuIxI2d8Sdc&#34;&gt;this track&lt;/a&gt; from Cowboy Bebop.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

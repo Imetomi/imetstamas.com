@@ -7,4 +7,4 @@ Hey! I'm Tamás Imets, co-founder and CEO of [Quino](https://quino.ai) and [Miny
 
 With our team right now we are building [Quino](https://quino.ai/), a study enhancement tool to help people learn faster. Some further links about my works and me: [CV](/uploads/cv.txt), [Minyma Technologies](https://minyma-tech.com/), [Quino AI](https://quino.ai/), [GitHub](https://github.com/Imetomi), [Instagram](https://www.instagram.com/imetstamas/).
 
-Oh, feel free to recommend me some music!
+Oh, feel free to recommend me some music, I got bored with my current playlists!
