@@ -6,6 +6,11 @@
                 <li class='current-nav'><a href="/">{{ .Site.Title }}</a></li>
             </div>
             <div class="nav-right">
+                {{ if eq .Page.Title "Portfolio" }}
+                <li class='current-nav'><a href="/portfolio">Portfolio</a></li>
+                {{ else }}
+                <li><a href="/portfolio">Portfolio</a></li>
+                {{ end }}
                 {{ if eq .Page.Title "Writings" }}
                 <li class='current-nav'><a href="/writings">Writings</a></li>
                 {{ else }}

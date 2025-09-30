@@ -1,3 +1,4 @@
 themes/imetomi/static/css/prepros-6.config
 /workspace.code-workspace
 hugo.exe
+.DS_Store

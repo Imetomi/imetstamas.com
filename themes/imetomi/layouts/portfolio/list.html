@@ -1,0 +1,50 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="portfolio-intro">
+    <p>Here are a few projects I'm happy to showcase. I've had the opportunity to wear multiple hats throughout my career, spanning product management, project leadership, and hands-on development. While I enjoy the strategic side, I also love rolling up my sleeves and getting into the code. If you'd like to work together, feel free to <a href="/contact">reach out</a>.</p>
+</div>
+
+<div class="portfolio-container">
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ $leftCol := slice }}
+    {{ $rightCol := slice }}
+    {{ range $index, $page := $pages }}
+        {{ if eq (mod $index 2) 0 }}
+            {{ $leftCol = $leftCol | append $page }}
+        {{ else }}
+            {{ $rightCol = $rightCol | append $page }}
+        {{ end }}
+    {{ end }}
+    {{ range $index, $page := union $leftCol $rightCol }}
+        {{ $heights := slice "project-small" "project-medium" "project-large" "project-xl" }}
+        {{ $seed := add (mul $index 7) (len $page.Title) }}
+        {{ $randomHeight := index $heights (mod $seed 4) }}
+    <a href="{{ $page.RelPermalink }}">
+        {{ with $page.Params.thumbnail }}
+            {{ $imageResource := ($.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+            {{ if not $imageResource }}
+                <div class="project {{ $randomHeight }}">
+            {{ else }}
+                {{ $resized := $imageResource.Resize "800x" }}
+                {{ $resized = $resized.Filter (images.GaussianBlur 5) (images.Brightness -6) }}
+                <article class='project {{ $randomHeight }}' style='background-image: url("{{ $resized.RelPermalink }}")'>
+            {{ end}}
+        {{ end }}
+                <div class="project-text">
+                    <p class="project-date">
+                        {{ $page.Date.Format "January 2006" }}
+                    </p>
+                    <h1 class="project-title">
+                        {{ $page.Title }}
+                    </h1>
+                    <p class="project-description">
+                        {{ $page.Params.shortDescription }}
+                    </p>
+                </div>
+            </article>
+        </a>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

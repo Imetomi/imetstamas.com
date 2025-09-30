@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+
+<article class='project-article'>
+    {{ with .Params.thumbnail }}
+        {{ $imageResource := ($.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+        {{ if not $imageResource }}
+            <div class="project-image">
+        {{ else }}
+        {{ $resized := $imageResource.Resize "800x q100" }}
+        <div class="project-image" style='background-image: url("{{ $resized.RelPermalink }}")'>
+        {{ end }}
+    {{ end }}
+    </div>
+    <div class="title-container">
+        <h1 class="title">{{ .Title }}</h1>
+        <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+    </div>
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+
+
+
+{{ partial "footer.html" . }}

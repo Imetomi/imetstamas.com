@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Tamás Imets</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolio on Tamás Imets</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bugninja</title>
+      <link>http://localhost:1313/portfolio/bugninja/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/bugninja/</guid>
+      <description>&lt;p&gt;Bugninja is my current venture, an AI-powered automated E2E testing tool for web applications. After experiencing the pain points of software testing and QA automation during our work at Quino, we pivoted to focus on solving this burning issue. The platform leverages artificial intelligence to automatically generate, execute, and maintain comprehensive test suites, significantly reducing testing time while improving coverage and reliability for development teams.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bugninja.ai&#34;&gt;Visit Bugninja →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bacprep.ro</title>
+      <link>http://localhost:1313/portfolio/bacprep/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/bacprep/</guid>
+      <description>&lt;p&gt;Bacprep.ro is an AI-based learning platform specifically designed to help high school students from the Hungarian minority in Romania prepare for their final exams. As Product Designer, Tech Lead, and AI Developer, I led the development of the MVP in just 3 weeks. The platform combines intelligent content delivery with personalized learning paths, making exam preparation more efficient and accessible for students navigating the unique challenges of minority education in Romania.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quino</title>
+      <link>http://localhost:1313/portfolio/quino/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/quino/</guid>
+      <description>&lt;p&gt;Quino is an AI-based learning platform I co-founded and led as CEO, targeted at students and higher education. We raised an $840k pre-seed round and scaled to over 100,000 users. The platform implements advanced RAG (Retrieval-Augmented Generation) techniques to help students learn more effectively. What started as a simple learning assist tool I created in 12th grade evolved into a full-fledged edtech startup that revolutionizes how students interact with educational content.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identity 20XY</title>
+      <link>http://localhost:1313/portfolio/identity-20xy/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/identity-20xy/</guid>
+      <description>&lt;p&gt;Identity 20XY was an experimental custom utility crypto project I developed to explore blockchain-based identity solutions. While the project was not commercially successful, it served as an invaluable learning experience in the crypto space. The experiment taught me important lessons about product-market fit, the challenges of crypto adoption, and the importance of focusing on solving real user problems rather than chasing technological trends.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://minyma.tech/project/identity-20xy/&#34;&gt;View Project →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Algorithmic Trading System</title>
+      <link>http://localhost:1313/portfolio/minyma-fund/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/minyma-fund/</guid>
+      <description>&lt;p&gt;Within Minyma Technologies, I led the development of a sophisticated backtest and algorithmic trading system. The platform features an interactive dashboard built with Python, Pandas, NumPy, and Plotly, allowing traders to test and analyze algorithmic trading strategies across multiple instruments. The system provides comprehensive statistical analysis, data visualization, and real-time performance metrics, enabling data-driven decision-making in quantitative trading strategies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://minyma.tech/fund/&#34;&gt;Learn More →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Galaxis / Ether Cards</title>
+      <link>http://localhost:1313/portfolio/galaxis-ether-cards/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/galaxis-ether-cards/</guid>
+      <description>&lt;p&gt;At Galaxis, a crypto company, I served as Project Leader and Smart Contract Developer, working on innovative blockchain solutions for the Ether Cards platform. The role involved architecting and implementing smart contracts, coordinating cross-functional teams, and ensuring the security and efficiency of blockchain transactions. This experience deepened my understanding of decentralized systems, Ethereum development, and the technical challenges of building reliable crypto infrastructure at scale.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ether.cards&#34;&gt;Visit Ether Cards →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Minyma Technologies</title>
+      <link>http://localhost:1313/portfolio/minyma-technologies/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/minyma-technologies/</guid>
+      <description>&lt;p&gt;Minyma Technologies is a software development company I co-founded at age 22, which I grew from a small team to 26 people within a year. As CEO, I led the team, managed product development, sales, and operations, achieving over €300,000 in annual revenue. The company specialized in custom software development, embedded systems, and computer vision projects for Hungarian and international clients. This venture taught me invaluable lessons about scaling a tech business, team leadership, and building sustainable revenue streams.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
